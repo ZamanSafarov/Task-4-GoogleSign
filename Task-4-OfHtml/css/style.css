@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: roboto,
+    'Noto Sans Myanmar UI',
+    arial,
+    sans-serif;
+}
+.title{
+    font-size: 24px;
+    display: block;
+    margin-top: 10px;
+}
+.paragraph{
+    font-size: 16px;
+    
+    display: block;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.top{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 250px 740px ;
+}
+.info-in{
+    border-radius: 6px;
+    width: 448px;
+    height: 500px;
+    padding: 20px 40px;
+    border: 1px solid rgb(207, 207, 207);
+}
+.inputContainer{
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+
+}
+.google-icon{
+    margin-top: 20px;
+    width: 75px;
+    height: 32px;
+}
+.anchor-style{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    color: #557ae8;
+}
+.input{
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 370px;
+    border: 1px solid #DADCE0;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 10px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+::placeholder {
+    color: transparent;
+}
+.label {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    color: rgb(97, 93, 93);
+    background-color: white;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.learn-more-text{
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+    margin-left: -16px;
+    padding-top: 50px;
+}
+.learn-more-a{
+    margin-right: 95px;
+    margin-left: -200px;
+    
+}
+.learn-more-a:active{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(187, 221, 238);
+}
+.nextBtn {
+    position: absolute;
+    border: none;                                     
+    display: block;
+    margin-left: 280px;
+    padding: 10px 24px;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.nextBtn:hover{
+    background-color: rgb(58, 103, 145);
+}
+.first-anch{
+    padding-right: 280px;
+}
+.third-a{
+    color: #709ad1;
+    display: block;
+    margin-top: 65px;
+    position: absolute;
+}
+.third-a:hover{
+    background-color: rgb(244, 246, 247);
+    color: rgb(17, 110, 185);
+}
+.input:focus+.label {
+    top: -5px;
+    left: 8px;
+    z-index: 10;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(68, 113, 156);
+}
+.input:focus {
+    border: 2px solid rgb(68, 113, 156);
+}
+.helps{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(97, 93, 93);
+    margin: 20px;
+}
+.lists{
+    display: flex;
+    list-style-type: none;
+}
+.foot{
+    padding-top: 20px;
+    padding-left: 90px;
+}
+.options{
+    padding-top: 20px;
+}
+.select{
+    border: none;
+}
+.select:hover{
+    cursor: pointer;
+}
+.all{
+    display: flex;
+
+}
